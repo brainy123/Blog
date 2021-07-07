@@ -1,0 +1,71 @@
+.ccontainer{
+    display: flex;
+ padding: 2%;
+}
+.content{
+    width: 70%;
+    height: 100vh;
+background-color: #fdfdfd;
+
+    
+}
+.ccard{
+    padding: 2%;
+}
+.content h1{
+    text-align: center;
+}
+.ccard h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact h1{
+text-align: center;
+}
+.info{
+    display: flex;
+}
+.info h3{
+    color: black;
+    padding: 5%;
+    font-style: oblique;
+   font-weight: 900;
+}
+.picture img{
+   width: 30%;
+   height: 50vh;
+   margin-left: 15%;
+   margin-top: 2%;
+}
+.headings{
+    width: 60%;
+
+}
+.headings h1{
+  color: #0a0a0a;
+  text-align: center;
+
+}
+.more p{
+    width: 69%;
+    height: 40vh;
+    font-weight: 900;
+    margin-left: 10%;
+
+}
+.related{
+    background-color: cadetblue;
+    width: 15%;
+    height: 100vh;
+    display: block;
+}
+.rrelated h2{
+    text-align: center;
+}
+.gallery img{
+    width: 97%;
+    height: 25vh;
+    margin:3px 3px 3px 3px;
+}
+

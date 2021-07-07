@@ -1,0 +1,272 @@
+.header{
+    width: 100%;
+    height: 15vh;
+    background-color: cadetblue;
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 10%;
+    height: 14vh;
+  margin:4px 4px 4px 4px;
+}
+.logo h1{
+    margin-left: 2px;
+}
+.menus{
+    display: flex;
+    width:50%;
+}
+
+.menus li{
+   
+    display: flex;
+    padding: 8px;
+}
+.menus li a{
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menus li a:hover{
+    background-color: rgb(62, 132, 134);
+    height: 5vh;
+    font-size: 20px;
+    border:1px solid white;
+}
+.container{
+    background-color: #f8f6f6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.categories{
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(62, 132, 134);
+}
+.lefts h3{
+    text-align: center;
+}
+.lefts a{
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.lefts a:hover{
+    background-color: cadetblue;
+}
+.content{
+    width: 70%;
+    height: 100vh;
+    background-color: #f6f8f8;
+   
+}
+.recent{
+    width: 15%;
+    height: 100vh;
+    background-color:#6ea5a5;
+    border-radius: 5px;
+}
+.searchbutton{
+    width: 50%;
+    height: 10vh;
+    
+    
+}
+.searching{
+    border-radius: 30px;
+    height: 7vh;
+    color: black;
+    width: 70%;
+    margin-left: 125%;
+    margin-top: 5px;
+    background-color: #f7f5f3;
+}
+.tayito h1{
+    text-align: center;
+    color: black;
+}
+.recent h3{
+    text-align: center;
+   
+}
+.layout{
+    width: 100%;
+    height: 80vh;
+    background-color: #fdfcfb;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardsclass{
+    width: 45%;
+    height: 32vh;
+    background-color: cadetblue;
+    border:1px solid black; 
+    display: flex; 
+    padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    flex-wrap: wrap;
+
+  
+}
+.cardinfo{
+    display: flex;  
+   background-color: rgb(248, 245, 244);
+   width: 100%;
+   
+}
+.image img{
+    width: 100%;
+    height: 28vh;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.info{
+    margin-left: 10px;
+}
+.info h4{
+    text-align: center;
+    font-size: 20px;
+}
+.more a{
+color: #0c0b0b;
+margin-left: 70%;
+}
+.rightrecent{
+    width: 96%;
+    height: 90vh;
+    margin-left: 4px;
+}
+.rcards{
+    width: 96%;
+    height: 44vh;
+    background-color:rgb(62, 132, 134);
+    margin-left: 4px;
+    margin-top: 5px;
+}
+.photo img{
+    width: 95%;
+    height: 20vh;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.rmenu a{
+    color: white;
+ margin-left: 70%;
+}
+.rcontent h2{
+    text-align: center;
+}
+.modal{
+    background-color: #a8d3d3f6;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    opacity: 1;
+    
+}
+.signin{
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+.close{
+    margin-left: 94%;
+    font-size: 30px;
+}
+.close:hover{
+    color: red;
+    cursor: pointer;
+}
+.signin h2{
+text-align: center;
+font-size: 30px;
+}
+.signin label{
+    font-size: 25px;
+    padding: 4%;
+}
+.signin input{
+    border-radius: 30px;
+    height: 5vh;
+    width: 60%;
+    margin-bottom: 4%;
+}
+.buttons{
+    width: 50%;
+    margin-left: 40%;
+    height: 5vh;
+
+   
+}
+.buttons button{
+    color: white;
+}
+.buto1{
+    height: 6vh;
+    width: 40%;
+    background-color: rgb(8, 124, 115);
+}
+.buto2{
+    height: 6vh;
+    width: 40%;
+    background-color: hsl(0, 100%, 50%);
+}
+.forgot{
+    margin-top: 25%;
+}
+.forgot a{
+    color: black;
+    margin-left: 60%;
+    padding-top: 10%;
+}
+.cmodal{
+    background-color: #a8d3d3f6;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    opacity: 1;
+    
+}
+.ccontact{
+    width: 30%;
+    height: 75vh;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 2%;
+  
+}
+.cforgot h3{
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+}
+.ccontact h2{
+    text-align: center;
+    font-size: 30px;
+}
+.ccontact label{
+    font-size: 20px;
+    width: 50px;
+    margin-left: 3px;
+}
+.ccontact input{
+    width: 60%;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+.ccontact textarea{
+    border-radius: 10px;
+    margin-left: 3px;
+}
