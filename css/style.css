@@ -17,7 +17,7 @@
 }
 .menus{
     display: flex;
-    width:60%;
+    width:80%;
 }
 
 .menus li{
@@ -144,7 +144,8 @@ padding: 2px;
 }
 .mo a{
     margin-left: 70%;
-    color: black;
+    color: #fffefe;
+    background-color: black;
 }
 .mowa p{
     opacity: .5;
@@ -161,7 +162,7 @@ padding: 2px;
 }
 .rcards{
     width: 96%;
-    height: 44vh;
+    height: 45vh;
     background-color:rgb(62, 132, 134);
     margin-left: 4px;
     margin-top: 5px;
@@ -172,9 +173,15 @@ padding: 2px;
     margin-left: 5px;
     margin-top: 3px;
 }
+.rmenu{
+    display: flex;
+}
+.rmenu p{
+    font-size: 12px;
+}
 .rmenu a{
     color: white;
- margin-left: 70%;
+ font-size: 12px;
 }
 .rcontent h2{
     text-align: center;
